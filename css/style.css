@@ -1,0 +1,94 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: azure;
+}
+
+.headSection {
+    padding-top: 3rem;
+}
+
+.btn1 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    border: 2px solid black;
+    margin-top: 0.3rem;
+    margin-left: 0.5rem;
+}
+
+.list1 {
+    margin-left: 29rem;
+}
+
+#todo-list > li {
+    color: brown;
+    font-weight: bold;
+    border-radius: 1rem;
+    padding: 0.4rem;
+    margin: 1rem;
+    width: 45%;
+    border: 2px solid gray;
+    font-size: 25px;
+    list-style-type: none;
+    letter-spacing: 2px;
+    background-color: white;
+}
+
+#todo-input {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    border: 2px solid black;
+    padding: 12px 24px;
+    background-color: white;
+}
+
+@media (min-width :360px) and (max-width: 740px) {
+    .headSection {
+        padding-top: 1rem;
+    }
+
+    .btn1 {
+        font-size: 12px;
+        margin-bottom: 1rem;
+    }
+
+    .list1 {
+        margin-left: 1rem;
+    }
+
+    #todo-list > li {
+        font-size: 12px;
+        width: 70%;
+        letter-spacing: 1px;
+    }
+
+    #todo-input {
+        font-size: 18px;
+    }
+}
+
+@media (min-width :768px) and (max-width: 1024px) {
+    .headSection {
+        padding-top: 2rem;
+    }
+
+    .btn1 {
+        font-size: 22px;
+        margin-bottom: 1rem;
+    }
+
+    .list1 {
+        margin-left: 4rem;
+    }
+
+    #todo-list > li {
+        font-size: 20px;
+        width: 70%;
+        letter-spacing: 1px;
+    }
+
+    #todo-input {
+        font-size: 22px;
+    }
+}
